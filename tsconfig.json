@@ -1,0 +1,13 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+      // 讀取js文件
+      "allowJs": true,
+      // 生成d.ts文件
+      "declaration": true,
+      // 只產出d.ts
+      "emitDeclarationOnly": true,
+      "outDir": "dist",
+      "declarationMap": true
+    }
+}
